@@ -7,55 +7,88 @@
       name="description"
       content="Professional CV of Cody Dreese. Explore my skills, experience, and achievements in Web Development. Discover how I can contribute to your team and drive success."
     />
-    <meta property="og:title" content="Cody Dreese - CV">
-    <meta property="og:description" content="Professional CV of Cody Dreese. Explore my skills, experience, and achievements in Web Development. Discover how I can contribute to your team and drive success.">
-    <link rel="shortcut icon" type="image/x-icon" href="cd-favicon.ico">
-    <title>Cody Dreese - CV</title>
+    <meta property="og:title" content="Cody Dreese - CV" />
+    <meta
+      property="og:description"
+      content="Professional CV of Cody Dreese. Explore my skills, experience, and achievements in Web Development. Discover how I can contribute to your team and drive success."
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="/icons/cd-favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV of CD</title>
   </head>
   <body>
-    <hr />
-    <header>
-      <h1>Cody Dreese</h1>
-      <p>Aspiring Frontend Developer</p>
-      <p><a href="mailto:cvdy@icloud.com">cvdy@icloud.com</a></p>
-      <p>(979) 217-0444</p>
-    </header>
-    <main>
-      <section>
-        <h3>Skills</h3>
-        <p>HTML, CSS, Responsive Design, Figma to Design, Git, Linux</p>
-      </section>
-      <section>
-        <article>
+    <div class="wrapper">
+      <header>
+        <h1>Cody Dreese</h1>
+        <div class="info">
+          <p>Aspiring Frontend Developer</p>
+          <p>
+            <a class="email-link" href="mailto:cvdy@icloud.com"
+              >cvdy@icloud.com</a>
+          </p>
+          <p>(979) 217-0444</p>
+        </div>
+      </header>
+      <main>
+        <section>
+          <h3>Skills</h3>
+          <ul class="skills">
+            <img class="icon" src="/icons/html.png" alt="HTML icon" />
+            <li class="icon-text">HTML</li>
+            <img class="icon" src="/icons/css.png" alt="CSS icon" />
+            <li class="icon-text">CSS</li>
+            <img
+              class="icon"
+              src="/icons/responsive-design.png"
+              alt="Responsive icon"
+            />
+            <li class="icon-text">Responsive Design</li>
+            <br />
+            <img class="icon" src="/icons/figma.png" alt="Figma icon" />
+            <li class="icon-text">Figma to Design</li>
+            <img class="icon" src="/icons/git.png" alt="Git icon" />
+            <li class="icon-text">Git</li>
+            <img class="icon" src="/icons/linux.png" alt="Linux icon" />
+            <li class="icon-text">Linux</li>
+          </ul>
+        </section>
+        <section>
           <h3>Education</h3>
-          <h2>HCC, Houston, Texas - Computer Science</h2>
-          <p>Jan 2023 to Jan 2024</p>
-        </article>
-        <article>
-          <h2>General Educational Development, Houston, Texas - GED</h2>
-          <p>Jun 2020 to Jul 2020</p>
-        </article>
-        <article>
-          <h2>Sealy High School, Sealy, Texas</h2>
-          <p>Aug 2016 to Jan 2019</p>
-        </article>
-      </section>
-      <section>
-        <h3>Experience</h3>
-        <article>
-          <h2>Amazon, Houston, Texas - Driver</h2>
-          <p>Mar 2024 to Present</p>
-        </article>
-        <article>
-          <h2>Batteries Plus, Houston, Texas - Phone Repair Tech</h2>
-          <p>Sep 2023 to Mar 2024</p>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <h3>Across the Internet</h3>
-      <a href="http://linkedin.com/in/cvdy/">LinkedIn</a>
-      <a href="http://github.com/cvdy">GitHub</a>
-    </footer>
+          <div class="education-content">
+            <article>
+              <h2>HCC, Houston, Texas - Computer Science</h2>
+              <p class="dates">Jan 2023 to Jan 2024</p>
+            </article>
+            <article>
+              <h2>General Educational Development, Houston, Texas - GED</h2>
+              <p class="dates">Jun 2020 to Jul 2020</p>
+            </article>
+            <article>
+              <h2>Sealy High School, Sealy, Texas</h2>
+              <p class="dates">Aug 2016 to Jan 2019</p>
+            </article>
+          </div>
+        </section>
+        <section>
+          <h3>Experience</h3>
+          <article>
+            <h2>Amazon, Houston, Texas - Driver</h2>
+            <p class="dates">Mar 2024 to Present</p>
+          </article>
+          <article>
+            <h2>Batteries Plus, Houston, Texas - Phone Repair Tech</h2>
+            <p class="dates">Sep 2023 to Mar 2024</p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <h4>Let's Connect</h4>
+        <ul class="social-links">
+          <li><a target="_blank" href="https://linkedin.com/in/cvdy/">LinkedIn</a></li>
+          <li><a target="_blank" href="https://github.com/cvdy/">GitHub</a></li>
+          <li><a target="_blank" href="https://x.com/codydreese/">X</a></li>
+        </ul>
+      </footer>
+    </div>
   </body>
 </html>
