@@ -1,5 +1,6 @@
 # [CV of Cody Dreese](https://cvdy.github.io/cv)
 
+https://cvdy.github.io/cv
 This is a webpage representing my curriculum vitae, which lists my education, experience, and certifications.
 
 ---
