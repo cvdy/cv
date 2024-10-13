@@ -45,7 +45,11 @@ header {
 
 a {
     text-decoration: none;
-    color:dodgerblue;
+    color:#000;
+}
+
+a:hover {
+    color:rgb(99, 56, 56);
 }
 
 /*MAIN CONTENT*/
@@ -92,7 +96,7 @@ h3 {
     font-weight: normal;
 }
 
-.education-content {
+.main-content {
     padding-left: 10px;
 }
 
@@ -131,6 +135,14 @@ footer {
     color: #24292e;
 }
 
+.github:hover {
+    color: #2b3137;
+}
+
 .x {
     color: #000;
+}
+
+.x:hover {
+    color: #008AD8;
 }
