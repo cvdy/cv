@@ -1,6 +1,7 @@
-# [CV of Cody Dreese](https://cvdy.github.io/cv)
+# C.V. of Cody Dreese
 
-This is a webpage representing my curriculum vitae, which lists my education, experience, and certifications.
+
+This is a webpage representing my [*curriculum vitae*](https://cvdy.github.io/cv), which lists my education, experience, and certifications.
 
 [Roadmap's Single Page CV Project](https://roadmap.sh/projects/single-page-cv
 )

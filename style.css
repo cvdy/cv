@@ -8,6 +8,7 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     width: 51rem;
+    max-width:100%;
     margin:96px auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: rgb(99, 56, 56);
