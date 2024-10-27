@@ -1,149 +1,125 @@
 /* UNIVERSAL */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    width: 51rem;
-    max-width:100%;
-    margin:96px auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: rgb(99, 56, 56);
+  font-family: Helvetica, Arial, sans-serif;
+  width: 51rem;
+  max-width: 100%;
+  margin: 96px auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(99, 56, 56);
 }
 
 .page-wrapper {
-    background-color: white;
+  background-color: white;
 }
 /*HEADER*/
 header {
-    display: flex;
-    line-height: 1.25;
+  display: flex;
+  line-height: 1.25;
 }
 
 .name-job {
-    padding: 20px;
-    width: 50%;
-    text-align: left;
+  padding: 20px;
+  width: 50%;
+  text-align: left;
 }
 
 .name {
-    font-size: 1.8em;
+  font-size: 1.8em;
 }
 
 .italics {
-    font-style:italic;
-    font-weight: 300;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .contact-info {
-    padding: 20px;
-    width: 50%;
-    text-align: right;
+  padding: 20px;
+  width: 50%;
+  text-align: right;
 }
 
 a {
-    text-decoration: none;
-    color:#000;
+  text-decoration: none;
+  color: #000;
 }
 
 a:hover {
-    color:rgb(99, 56, 56);
+  color: rgb(99, 56, 56);
 }
 
 /*MAIN CONTENT*/
 main {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 .segment {
-    width: 98%;
-    text-align: left;
+  width: 98%;
+  text-align: left;
 }
 
 .summary-p {
-    padding: 10px 0px 20px 10px;
+  padding: 10px 0px 20px 10px;
 }
 
 .dates {
-    padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
-ul { 
-    width: 98%;
-    padding-left: 20px;
+ul {
+  width: 98%;
+  padding-left: 20px;
 }
 
 article ul li {
-    padding: 10px;
+  padding: 10px;
 }
 
 article li:last-child {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 h2 {
-    font-size: 1.25em;
-    padding-top: 10px;
+  font-size: 1.25em;
+  padding-top: 10px;
 }
 
 h3 {
-    padding-top: 10px;
-    font-size: 1em;
+  padding-top: 10px;
+  font-size: 1em;
 }
 
 .normal {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .main-content {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
+/*FOOTER*/
 footer {
-    display: flex;
-    padding: 20px;
-    width: 100%;
-    align-items: flex-end;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  align-items: flex-end;
 }
 
 .footer-msg {
-    width: 50%;
-    text-align: left;
+  width: 50%;
+  text-align: left;
 }
 
 .social-links {
-    width: 50%;
-    text-align: right;
-    list-style-type: none;
-    
+  width: 50%;
+  text-align: right;
+  list-style-type: none;
 }
 
 .social-links li {
-    line-height: 1.5em;
-}
-
-.linkedin {
-    color: #0c65c1;
-}
-
-.linkedin:hover {
-    color: black;
-}
-
-.github {
-    color: #24292e;
-}
-
-.github:hover {
-    color: #2b3137;
-}
-
-.x {
-    color: #000;
-}
-
-.x:hover {
-    color: #008AD8;
+  line-height: 1.5em;
 }
